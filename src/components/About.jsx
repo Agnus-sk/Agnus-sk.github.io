@@ -23,11 +23,11 @@ export default function About() {
                 <div style={{ display:'flex', gap:10 }}><span className="tp">~</span><span className="tc">cat profile.json</span></div>
                 <div style={{ marginTop:6, color:'#555' }}>{'{'}</div>
                 <div className="to"><span className="tk">"name"</span>: <span className="tv">"Agnus SK"</span>,</div>
-                <div className="to"><span className="tk">"role"</span>: <span className="tv">"DevOps Engineer"</span>,</div>
+                <div className="to"><span className="tk">"role"</span>: <span className="tv">"Cloud & DevOps Engineer"</span>,</div>
                 <div className="to"><span className="tk">"location"</span>: <span className="tv">"Bangalore 🇮🇳"</span>,</div>
                 <div className="to"><span className="tk">"education"</span>: <span className="tv">"MCA"</span>,</div>
-                <div className="to"><span className="tk">"stack"</span>: [<span className="tv">"Docker"</span>, <span className="tv">"K8s"</span>, <span className="tv">"AWS"</span>],</div>
-                <div className="to"><span className="tk">"status"</span>: <span className="ts">"open_to_work" ✓</span></div>
+                <div className="to"><span className="tk">"stack"</span>: [<span className="tv">"Docker"</span>, <span className="tv">"K8s"</span>, <span className="tv">"AWS"</span> <span className="tv">"Terraform" </span>],</div>
+                <div className="to"><span className="tk">"status"</span>: <span className="ts">"open to work" ✓</span></div>
                 <div style={{ color:'#555' }}>{'}'}</div>
                 <div style={{ display:'flex', gap:10, marginTop:8 }}>
                   <span className="tp">~</span><span className="cursor" />
@@ -54,21 +54,27 @@ export default function About() {
 
           {/* Text */}
           <div className={`about-text reveal-r ${vis ? 'visible' : ''} d3`}>
-            <h2>I'm Agnus —<br /><em>DevOps &amp; Cloud</em></h2>
-            <p>
-              Based in <strong>Bangalore</strong>, I'm a DevOps Engineer with a passion for
-              building robust, scalable applications and streamlining deployment processes.
-            </p>
-            <p>
-              With a <strong>Master's degree in Computer Applications</strong>, I bring a
-              unique analytical perspective to infrastructure engineering — spanning
-              <strong> cloud infrastructure</strong>, <strong>containerization</strong>, and
-              <strong> CI/CD pipelines</strong>.
-            </p>
-            <p>
-              I specialize in <strong>Docker</strong>, <strong>Kubernetes</strong>, and
-              <strong> AWS</strong> — always focused on efficient, secure, and maintainable systems.
-            </p>
+            <h2>
+		  I'm Agnus —<br />
+		  <em>DevOps & Cloud Engineer</em>
+		</h2>
+
+		<p>
+		  Based in <strong>Bangalore</strong>, I'm a DevOps Engineer focused on deploying,
+		  automating, and managing scalable applications in cloud environments.
+		</p>
+
+		<p>
+		  With a <strong>Master's degree in Computer Applications</strong>, I bring a strong
+		  analytical foundation to infrastructure engineering — working across
+		  <strong> cloud infrastructure</strong>, <strong> containerization</strong>, and
+		  <strong> CI/CD pipelines</strong>.
+		</p>
+
+		<p>
+		  I have hands-on experience with <strong>Docker</strong>, <strong>Kubernetes</strong>,
+		  and <strong>AWS</strong> — focusing on building efficient, secure, and scalable systems.
+		</p>
 
             <div className="about-chips">
               {[

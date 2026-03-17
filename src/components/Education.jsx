@@ -3,7 +3,7 @@ import { useIntersection } from '../hooks/useIntersection'
 const EDU = [
   {
     emoji: '🎓', badge: 'Post Graduate',
-    degree: 'Master of Computer Applications',
+    degree: 'Master of Computer Applications(MCA)',
     school: 'St Aloysius College',
     period: '2022 – 2024', location: 'Mangalore, Karnataka',
   },
@@ -64,7 +64,7 @@ export default function Education() {
               Continuously learning
             </div>
             <div style={{ fontSize:'.8rem', color:'var(--t3)' }}>
-              Pursuing AWS certifications and advanced DevOps skills
+              Continuously improving DevOps skills through hands-on projects in AWS, Kubernetes, CI/CD, and Infrastructure as Code.
             </div>
           </div>
         </div>

@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react'
 
-const ROLES = ['DevOps Engineer','AWS Cloud Enthusiast','CI/CD Pipeline Builder','Kubernetes Practitioner','Docker Specialist']
+const ROLES = [
+  "DevOps Engineer",
+  "AWS Cloud Engineer",
+  "CI/CD Pipeline Builder",
+  "Kubernetes & Docker",
+  "Terraform Automation"
+]
 
 function useTyping(words, spd = 72, pause = 1800) {
   const [text, set]   = useState('')
@@ -37,7 +43,7 @@ export default function Hero() {
 
           <div className="hero-badge">
             <span className="badge-dot" />
-            Fresher DevOps Engineer · Open to work
+            DevOps Engineer · Open to work
           </div>
 
           <h1 className="hero-name">
@@ -45,10 +51,13 @@ export default function Hero() {
           </h1>
 
           <p className="hero-sub">
-            <strong>DevOps Engineer</strong> &amp; AWS Cloud Enthusiast
-          </p>
+	  AWS Cloud & DevOps Engineer with hands-on experience in Linux and AWS. Skilled in CI/CD automation using Jenkins and GitHub Actions, and experienced in containerization and orchestration using Docker and Kubernetes. Proficient in Infrastructure as Code (Terraform) for building scalable environments, with monitoring experience using Prometheus, Grafana, and AWS CloudWatch.
+	</p>
 
-          <p className="hero-loc">
+	 <p className="hero-sub highlight">
+          Built and deployed cloud-native applications using CI/CD pipelines, Kubernetes, and AWS infrastructure.
+         </p>
+           <p className="hero-loc">
             Bangalore, India
           </p>
 
@@ -63,7 +72,7 @@ export default function Hero() {
             <a href="#projects" className="btn btn-fill"
               onClick={e => { e.preventDefault(); document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' }) }}>
               View Projects
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <svg width="14" height="14" viewBox="0 100 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
             </a>

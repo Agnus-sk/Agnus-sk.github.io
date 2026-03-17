@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <h3><em>Agnus</em> SK</h3>
-            <p>DevOps Engineer & AWS Cloud Enthusiast.<br />Building scalable infrastructure, one pipeline at a time.</p>
+            <p>DevOps & Cloud Engineer<br />Focused on building scalable cloud infrastructure and automating deployments using DevOps practices.</p>
             <div className="footer-socials">
               <a href="https://linkedin.com/in/agnus-sk" target="_blank" rel="noreferrer" className="soc-btn" title="LinkedIn">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
