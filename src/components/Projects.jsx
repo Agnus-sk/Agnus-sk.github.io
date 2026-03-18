@@ -65,7 +65,8 @@ const PROJECTS = [
       { l: 'Python', c: 'bp' },
       { l: 'RAG', c: 'bg' },
       { l: 'FastAPI', c: 'bf' },
-      { l: 'React', c: 'br' }
+      { l: 'React', c: 'br' },
+      { l: 'LLM', c: 'br' }
     ],
     bullets: [
       "Developed a responsive mental health assistant using FastAPI and React with JWT authentication and CORS middleware.",

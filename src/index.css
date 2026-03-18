@@ -658,7 +658,7 @@ section {
   font-size: clamp(1.05rem, 2.2vw, 1.35rem);
   color: var(--t1);
   font-weight: 400;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   line-height: 1.5;
   animation: fadeUp .75s var(--ease) .28s both;
 }

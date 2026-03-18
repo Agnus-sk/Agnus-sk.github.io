@@ -57,10 +57,6 @@ export default function Hero() {
 	 <p className="hero-sub highlight">
           Built and deployed cloud-native applications using CI/CD pipelines, Kubernetes, and AWS infrastructure.
          </p>
-           <p className="hero-loc">
-            Bangalore, India
-          </p>
-
           <div className="hero-terminal">
             <span className="t-prompt">~</span>
             <span className="t-arrow">$</span>
